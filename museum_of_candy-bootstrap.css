@@ -3,12 +3,14 @@ body {
     font-family: Nunito, sans-serif;
 }
 
+/* Styling for the h2 elements in the blurb class */
 .blurb h2 {
     color: rgb(234, 28, 44);
     font-weight: 100;
     font-size: 2.5rem;
 }
 
+/* Styling for the paragraphs in the blurb class */
 .blurb p {
     color: rgb(205, 141, 151);
     font-weight: 100;
@@ -16,46 +18,56 @@ body {
     line-height: 2;
 }
 
+/* Margin for content class elements */
 .content {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
+/* Styling for the main navigation bar */
 #MainNavbar {
     font-weight: 100;
     font-size: 1.5rem;
 }
 
+/* Styling for the brand name in the navigation bar */
 #MainNavbar .navbar-brand {
     color: rgb(234, 28, 44);
 }
 
+/* Styling for the navigation links */
 #MainNavbar .nav-link {
     color: rgb(250, 250, 250);
 }
 
+/* Hover effect for the navigation links */
 #MainNavbar .nav-link:hover {
     color: rgb(234, 28, 44);
 }
 
+/* Uppercase transformation for navigation links */
 a.nav-link {
     text-transform: uppercase;
 }
 
+/* Styling for the spans within the heading group */
 #headingGroup span {
     color: rgb(234, 28, 44);
 }
 
+/* Styling for the h1 elements within the heading group */
 #headingGroup h1 {
     font-weight: 100;
     font-size: 4rem;
 }
 
+/* Background change for the navbar when scrolled */
 .navbar.scrolled {
     background: rgb(222, 192, 222);
     transition: background 500ms;
 }
 
+/* Responsive styling for heading group h1 elements */
 @media (max-width: 1240px) {
     #headingGroup h1 {
         font-weight: 100;
@@ -64,18 +76,9 @@ a.nav-link {
 }
 
 /* 
-rem  --  is for if we wish to scale the element's size to be the same as of the main page (HTML)
+rem - for scaling the element's size to be the same as the main HTML page size.
+ rem=HTML page size em - for scaling the element's size to its parent element size.
+ em=Parent element's size
 
-So,
-rem = HTML page size
-
-
-em  --  on the other hand,
-is for scaling the element's size to its parent element.
-
-and,
-em = PARENT element's size
-
-
-That's why we use rem more often.
+rem is used more often for consistency across different devices.
 */

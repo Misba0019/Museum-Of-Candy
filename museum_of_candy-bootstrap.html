@@ -5,18 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Importing Google font Nunito -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
 
+    <!-- Importing Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+    <!-- Linking CSS file-->
     <link rel="stylesheet"
         href="museum_of_candy-bootstrap.css">
     <title>Museum Of Candy - Project Bootstrap</title>
 </head>
 
 <body>
+    <!-- Navigation bar with toggle button for mobile view -->
     <nav class="navbar navbar-dark navbar-expand-md p-none pl-3 fixed-top" id="MainNavbar">
         <div class="navbar-brand" id="#">CANDY</div>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle NavBar">
@@ -37,6 +41,7 @@
         </div>
     </nav>
 
+    <!-- First section with heading and image -->
     <section class="container-fluid px-0">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -54,6 +59,7 @@
         </div>
     </section>
 
+    <!-- Second section with alternating text and images -->
     <section class="container-fluid px-0">
         <div class="row align-items-center content">
             <div class="col-md-6 order-2 order-md-1">
@@ -62,7 +68,7 @@
             <div class="col-md-6 text-center order-1 order-md-2">
                 <div class="row justify-content-center">
                     <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                        <!--We added this extra column so we can have this section alot more in an ordered manner, now the content is in 10 units of that one div box.-->
+                        <!-- Added extra column for better layout, content is within 10 units of this div -->
                         <h2>Museum Of Candy</h2>
                         <img src="Images\lolli_icon.png" alt="" class="d-none d-lg-inline">
                         <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero et odit
@@ -76,6 +82,7 @@
             </div>
         </div>
 
+        <!-- Third section with alternating text and images -->
         <div class="row align-items-center content">
             <div class="col-md-6 text-center">
                 <div class="row justify-content-center">
@@ -100,6 +107,7 @@
         </div>
     </section>
 
+    <!-- Fourth section with alternating text and images -->
     <div class="row align-items-center content">
         <div class="col-md-6 order-2 order-md-1">
             <img src="Images\sprinkles.png" alt="" class="img-fluid">
@@ -120,6 +128,7 @@
         </div>
     </div>
 
+    <!-- Importing jQuery and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -127,6 +136,7 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
 
+    <!-- Inbuilt JavaScript for toggling navbar class on scroll -->
     <script>
         $(function () {
             $(document).scroll(function () {
@@ -139,12 +149,11 @@
 
 </html>
 
-<!--aria-label attribute is for the screen reader to understand, what the specific element or class does.-->
+<!-- aria-label attribute is for screen readers to understand what the specific element or class does -->
 
-<!--There are classes of ORDER
-With which we can assign an order to our content pieces.
+<!-- There are classes of ORDER
+    With which we can assign an order to our content pieces.
+    For example: order-1 can be assigned to a content piece 
+    that was on the last position and will come up to the first position. -->
 
-for example:-
-order-1   --   can be assigned to a content piece that was, on the last position and will come up to the first position. -->
-
-<!-- blurb and content are classes made by me (Not a Part Of BOOTSTRAP!)-->
+<!-- blurb and content are classes made by me (Not a part of BOOTSTRAP!) -->
