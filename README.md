@@ -32,12 +32,12 @@ Custom CSS for unique styling and layout adjustments.
 ## To run this project locally, follow these steps:
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Misba0019/museum-of-candy.git
+    git clone https://github.com/Misba0019/Museum-Of-Candy.git
     ```
 
 2. **Navigate to the project directory:**
     ```bash
-    cd museum-of-candy
+    cd Museum-Of-Candy
     ```
 
 3. **Open the `index.html` file in your preferred web browser.**
