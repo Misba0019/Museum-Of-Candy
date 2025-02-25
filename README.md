@@ -40,7 +40,7 @@ Custom CSS for unique styling and layout adjustments.
     cd Museum-Of-Candy
     ```
 
-3. **Open the `index.html` file in your preferred web browser.**
+3. **Open the `museum_of_candy-bootstrap.html` file in your preferred web browser.**
 
 ## License
 
