@@ -1,5 +1,6 @@
 # Museum of Candy
 ## Overview
+
 **Welcome to the Museum of Candy!**
 This project is a Bootstrap-based website that showcases a fictional candy museum.
 The website is built using HTML, CSS, and Bootstrap, ensuring a responsive and visually appealing design.
@@ -30,6 +31,7 @@ JavaScript to add a smooth scrolling effect when navigating the website.
 Custom CSS for unique styling and layout adjustments.
 
 ## To run this project locally, follow these steps:
+
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/Misba0019/Museum-Of-Candy.git
@@ -44,4 +46,4 @@ Custom CSS for unique styling and layout adjustments.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Misba0019/Museum-Of-Candy?tab=MIT-1-ov-file) file for details.
