@@ -46,4 +46,4 @@ Custom CSS for unique styling and layout adjustments.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Misba0019/Museum-Of-Candy?tab=MIT-1-ov-file) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
