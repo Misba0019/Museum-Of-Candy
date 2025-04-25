@@ -1,7 +1,7 @@
 # Museum of Candy
-## Overview
 
-**Welcome to the Museum of Candy!**
+## Description
+**Welcome to the Museum of Candy!**  
 This project is a Bootstrap-based website that showcases a fictional candy museum.
 The website is built using HTML, CSS, and Bootstrap, ensuring a responsive and visually appealing design.
 
@@ -15,19 +15,19 @@ The website is built using HTML, CSS, and Bootstrap, ensuring a responsive and v
 
 ## Features
 
-**Responsive Design:** 
+**Responsive Design:**  
 The website adapts to different screen sizes, providing a consistent experience on desktop and mobile devices.
 
-**Navigation Bar:** 
+**Navigation Bar:**  
 A fixed-top navigation bar with links to the Home, About, and Tickets sections.
 
-**Image Gallery:** 
+**Image Gallery:**  
 Sections with images and descriptions(lorem epsum text) of the museum's exhibits.
 
-**Smooth Scrolling:** 
+**Smooth Scrolling:**  
 JavaScript to add a smooth scrolling effect when navigating the website.
 
-**Custom Styling:** 
+**Custom Styling:**  
 Custom CSS for unique styling and layout adjustments.
 
 ## To run this project locally, follow these steps:
