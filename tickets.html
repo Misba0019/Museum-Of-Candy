@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importing Google font Nunito -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <!-- Importing Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Linking CSS file-->
+    <link rel="stylesheet" href="museum_of_candy-bootstrap.css">
+    <title>Welcome to the Museum Of Candy!</title>
+</head>
+
+<body>
+
+    <!-- Navigation bar with toggle button for mobile view -->
+    <nav class="navbar navbar-dark navbar-expand-md p-none pl-3 fixed-top" id="MainNavbar">
+        <div class="navbar-brand" id="#">CANDY</div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle NavBar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="tickets.html" class="nav-link">Tickets</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Tickets Form -->
+    <h1><div class="text-center mt-5 pt-5">Tickets</div></h1>
+    <form action="#">
+        <div class="container mt-5">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="tickets">Number of Tickets:</label>
+                <input type="number" class="form-control" id="tickets" name="tickets" min="1" max="10" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Visit Date:</label>
+                <input type="date" class="form-control" id="date" name="date" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+    
+</body>
+
+</html>
