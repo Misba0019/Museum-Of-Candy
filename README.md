@@ -34,7 +34,7 @@ Custom CSS for unique styling and layout adjustments.
     git clone https://github.com/Misba0019/Museum-Of-Candy.git
     ```
 
-2. **Open the `museum_of_candy-bootstrap.html` file in your preferred web browser.**
+2. **Open the `index.html` file in your preferred web browser.**
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit a pull request.  
