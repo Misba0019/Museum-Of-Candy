@@ -1,21 +1,30 @@
-#  🍭 Museum of Candy
+# MuseumOfCandy 🍭
 
 **Welcome to the Museum of Candy!**  
 This project is a Bootstrap-based website that showcases a fictional candy museum.  
 The website is built using HTML, CSS, and Bootstrap, ensuring a responsive and visually appealing design.
+> ⚠️ Note: This is a demo project built for educational purposes only.
 
 ---
 
-## Technologies Used
-- HTML5
-- CSS3
-- Bootstrap 4.6.2
-- Google Fonts (Nunito)
-- jQuery
+## Screenshots
+
+### Top Section
+![Main View](./screenshots/hero-section.png)
+
+### Page Footer View
+![Page Footer](./screenshots/bottom-section.png)
+
+### About Page
+![About Page](./screenshots/about-page.png)
+
+### Tickets Form
+![Tickets Form](./screenshots/tickets-page.png)
 
 ---
 
 ## Features
+
 - **Responsive Design:**  
 Adapts to all screen sizes for consistent user experience
 
@@ -36,22 +45,18 @@ A footer message indicating the site is for demo/educational purposes only.
 
 ---
 
-## Screenshots
-### Top Section
-![Main View](./screenshots/hero-section.png)
+## Technologies Used
 
-### Page Footer View
-![Page Footer](./screenshots/bottom-section.png)
-
-### About Page
-![About Page](./screenshots/about-page.png)
-
-### Tickets Form
-![Tickets Form](./screenshots/tickets-page.png)
+- HTML5
+- CSS3
+- Bootstrap 4.6.2
+- Google Fonts (Nunito)
+- jQuery
 
 ---
 
 ## Getting Started
+
 To run this project locally:
 1. **Clone the repository:**
     ```bash
@@ -63,4 +68,5 @@ To run this project locally:
 ---
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
